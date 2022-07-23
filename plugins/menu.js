@@ -5,25 +5,51 @@
       isPrefix
    }) => {
       let rows = [{
-         title: 'ALL COMMANDS',
+         title: 'ALL-COMMANDS',
          rowId: `${isPrefix}menutype 1`,
-         description: `𝗠𝙍 𝗬𝗢𝗨𝗖𝗛𝗡`
+         description: ``
       }, {
-         title: 'GROUP TOOLS',
+         title: 'GROUP-MENU',
          rowId: `${isPrefix}menutype 2`,
-         description: `𝗠𝙍 𝗬𝗢𝗨𝗖𝗛𝗡`
+         description: ``
       }, {
-         title: 'UTILITIES',
+         title: 'DOWNLOAD-MENU',
          rowId: `${isPrefix}menutype 3`,
-         description: `𝗠𝙍 𝗬𝗢𝗨𝗖𝗛𝗡`
+         description: ``
       }, {
-         title: 'OWNER TOOLS',
+         title: 'SEARCH-MENU',
          rowId: `${isPrefix}menutype 4`,
-         description: `𝗠𝙍 𝗬𝗢𝗨𝗖𝗛𝗡`
+         description: ``
+         }, {
+         title: 'STICKERS-MENU',
+         rowId: `${isPrefix}menutype 5`,
+         description: ``
+         }, {
+         title: 'INTERNET-MENU',
+         rowId: `${isPrefix}menutype 6`,
+         description: ``
+         }, {
+         title: 'ANIME-MENU',
+         rowId: `${isPrefix}menutype 7`,
+         description: ``
+         }, {
+         title: 'IMAGE-MENU',
+         rowId: `${isPrefix}menutype 8`,
+         description: ``
+         }, {
+         title: 'AUDIO-MENU',
+         rowId: `${isPrefix}menutype 9`,
+         description: ``
+         }, {
+         title: 'TOOLS-MENU',
+         rowId: `${isPrefix}menutype 10`,
+         description: ``
       }]
-      let text = '𝗠𝙍 𝗬𝗢𝗨𝗖𝗛𝗡.\n\n'
-      text += '◦ *instagram* : http://instagram.com/mr_johan_shezir\n\n'
-      text += 'Ela konto talib/tilmid, Sift Lya *#bac*'
+      let text = '𝗛𝗔𝗟𝗙 𝗕𝗢𝗧\n'
+      text += '𝙱𝚈\n'
+      text += '𝗠𝗥 𝗬𝗢𝗨𝗖𝗛𝗡\n'
+      text += '◦ *instagram* : http://instagram.com/mr_johan_shezir\n'
+      text += '◦ *facebook* : https://www.facebook.com/profile.php?id=100027327995013'
       await client.sendList(m.chat, '', text, '', 'click!', [{
          rows
       }], m)
