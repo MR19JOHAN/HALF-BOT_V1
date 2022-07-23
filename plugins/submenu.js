@@ -74,7 +74,8 @@ const submenu3 = prefix => {
 }
 
 const submenu4 = prefix => {
-   return `◦  ${prefix}yts
+   return `◦  ${prefix}google
+◦  ${prefix}yts
 ◦  ${prefix}wikipedia
 ◦  ${prefix}image
 ◦  ${prefix}stickerline 
